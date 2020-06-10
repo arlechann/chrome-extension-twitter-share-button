@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "twitter share button",
-	"version": "0.0.0.1",
+	"version": "0.0.0.2",
 	"description": "Put twitter share button on address bar.",
 	"icons": {
 		"16": "img/Twitter.png",
