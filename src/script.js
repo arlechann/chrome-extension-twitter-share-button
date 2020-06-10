@@ -5,7 +5,7 @@
 
 const tweet = () => {
 	var w = 550, h = 420;
-	window.open("https://twitter.com/intent/tweet?status=" + encodeURIComponent(document.title) + " " + encodeURIComponent(location.href),
+	window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(document.title) + " " + encodeURIComponent(location.href),
 		"_blank",
 		"width=" + w + ",height=" + h + ",left=" + (screen.width - w) / 2 + ",top=" + (screen.height - h) / 2 + ",scrollbars=yes,resizable=yes,toolbar=no,location=yes");
 };
